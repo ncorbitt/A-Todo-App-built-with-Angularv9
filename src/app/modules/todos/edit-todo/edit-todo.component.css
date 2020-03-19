@@ -1,0 +1,82 @@
+.myFormControl {
+   /* margin: 10% 0px 0px 0px; */
+   background-color: #0d47a1;
+   padding: 5% 0px;
+}
+
+#myFormControl-todo {
+   word-wrap: break-word;
+}
+#myFormControl-date input {
+   background-color: #072450;
+}
+
+#edit-container {
+   border: 3px solid black;
+   border-radius: 7px;
+   color: white;
+   background-color: #0d47a1;
+}
+
+#edit-container h1 {
+   padding: 30px 0px;
+   background-color: #0d47a1;
+   margin:0px;
+   color: white;
+   font-size: 2em;
+   text-align: center;
+   text-shadow: 1px 1px 7px white;
+   border-bottom: 30px !important;
+}
+
+input {
+   /* height: 50px; */
+   margin-left: 25%;
+   padding: 15px 0px;
+   width: 50%;
+   text-align: center;
+   color: grey;
+   border-radius: 7px;
+   font-size: 1.8em;
+   font-family: 'Neucha';
+}
+
+label {
+   position: relative;
+   margin-top: 10px;
+   text-shadow: 1px 1px 7px white;
+   font-size: 1.5em;
+   margin-left: 25%;
+}
+
+#button-container {
+   margin-top: 0%;
+   height: 70px;
+   width: 350px;
+   margin: 0px auto;
+}
+
+#button-container span {
+   font-size: 2em;
+   text-shadow: 1px 1px 7px white;
+   cursor: pointer;   
+}
+
+#edit-save {
+   position: relative;
+   left: 50px; 
+}
+#edit-save:hover {
+   text-shadow: 1px 1px 7px #072450;;  
+   color: #072450;
+}
+#edit-cancel {
+   position: relative;
+   left: 200px;   
+}
+
+#edit-cancel:hover {
+   text-shadow: 1px 1px 7px red;  
+   color: red;
+}
+

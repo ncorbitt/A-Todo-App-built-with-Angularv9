@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "Thu Mar 19 2020 01:28:41 GMT-0700 (Mountain Standard Time)-19-Mar-2020",
+      "todo": "Learn Angular v9",
+      "createdDate": "19-Mar-2020"
+    },
+    {
+      "id": "Thu Mar 19 2020 01:28:51 GMT-0700 (Mountain Standard Time)-19-Mar-2020",
+      "todo": "Install Toastr",
+      "createdDate": "19-Mar-2020"
+    },
+    {
+      "id": "Thu Mar 19 2020 01:28:58 GMT-0700 (Mountain Standard Time)-19-Mar-2020",
+      "todo": "install Bootstrap",
+      "createdDate": "19-Mar-2020"
+    }
+  ]
+}

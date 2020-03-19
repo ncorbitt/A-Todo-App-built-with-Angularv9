@@ -1,0 +1,21 @@
+<div id='edit-container'>
+   <h1>Edit Todo</h1>
+      <form [formGroup]='todoForm' autocomplete="off" (ngSubmit)="saveTodo(todoForm.value)">
+
+         <div id='myFormControl-todo' class='myFormControl'>
+            <label for="Todo">Todo</label> <br/>
+            <input formControlName='Todo' #todo (keydown.enter)="!todo.value?null:saveTodo(todoForm)" id='Todo' type="text" class='form-control' placeholder="Todo" />
+         </div>
+
+         <div id='myFormControl-date' class='myFormControl'>
+            <label for="Date">Date Created</label> <br/>
+            <input disabled formControlName='TodoDate' id='Date' type="text" class='form-control' placeholder="Date" />
+         </div>
+         
+         <div id='button-container'>
+            <span id='edit-save' #save type='submit' (keydown.enter)="!save.value?null:saveTodo(todoForm)" (click)='saveTodo(todoForm)'>Save</span>
+            <span id='edit-cancel' type='submit' (click)='cancel()'>Cancel</span>         
+         </div>
+      </form>
+        
+</div>

@@ -1,0 +1,24 @@
+
+
+         <section id='input-container'>
+            <h2>
+                  Todos | Total: {{ todosLength }}
+            </h2>
+               <input
+                  #todo
+                  id='todoToAdd'
+                  name='todoToAdd'
+                  [(ngModel)]='theTodoTodo'
+                  placeholder="A thing todo"
+                  (keydown.enter)="!todo.value ? null : onAddTodo(todo.value)"
+                  required />
+         </section>
+
+         <div id='Todos' >
+            <app-display-todo
+                  *ngFor='let todo of todos'
+                  [Todo]='todo'
+                  (todoToEdit)='onTodoToEdit($event)'
+                  (todoToDelete)="onTodoToDelete($event)">
+            </app-display-todo>
+         </div>

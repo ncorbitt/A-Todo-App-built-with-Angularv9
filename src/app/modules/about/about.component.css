@@ -1,0 +1,20 @@
+#about-me {
+    text-align:center;
+    width: 100%;
+    padding: 15px;
+    margin:0px auto;
+    overflow:hidden;
+    font-family:Open Sans Condensed;
+    border:3px solid black;
+    border-radius:9px;
+    background-color: #0d47a1;
+}
+
+#about-me h1 {
+    text-shadow: 1px 1px 7px white;
+    color: white;
+}
+#about-me {
+    text-shadow: 1px 1px 7px white;
+    color: white;
+}

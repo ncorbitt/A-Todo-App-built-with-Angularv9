@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Neucha";
+  src: url("./assets/fonts/Neucha/Neucha-Regular.ttf");
+}
+@font-face {
+   font-family: "Open Sans Condensed";
+   src: url("./assets/fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+}
+
+body {
+   font-family: "Open Sans Condensed"
+}
+
+@media (min-width:320px){
+   #input-container {
+      background-color: black !important;
+      position: relative !important;
+      min-width: 100% !important;
+      min-width:100% !important;
+   }
+
+   #todoToAdd {
+      max-width: 50% !important;
+      width:auto;
+      left: 18%;
+   }
+
+   #main-app {
+      min-width: 100%;
+   }
+
+   #createdDate {
+      margin-top: -25px;
+      font-size: .5em !important;
+      display: block;
+   }
+
+   #todotodo {
+      font-size: .5em !important;
+   }
+
+   #about-me {
+      max-width: 93% !important;
+      width: auto;
+   }
+
+}
+@media (min-width:768px){}
+
+@media (min-width:992px){
+
+   #main-app {
+      min-width: 65%;
+   }
+
+   #input-container {
+      background-color: black !important;
+      position: relative !important;
+      min-width: 100% !important;
+      width:100%;
+   }
+
+   #todoToAdd {
+      position: relative !important;
+      left: 23% !important;
+      
+   }
+   #createdDate {
+      font-size: .8em !important;
+   }
+   #todotodo {
+      font-size: 1em !important;
+   }
+
+}

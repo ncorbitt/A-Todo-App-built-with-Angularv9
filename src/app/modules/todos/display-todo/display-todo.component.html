@@ -1,0 +1,16 @@
+<div>
+   <table id="output-container">
+      <tbody>
+         <tr id='todoRow'>
+            <td>
+               <i id='createdDate' style='font-size: .8em' class='shadow'>{{Todo.createdDate}}</i>
+               <span id='todotodo' style='text-align:center; word-wrap: break-word; left: -20%' class='shadow'>{{Todo.todo}}</span>
+            </td>
+            <td id="remove">
+               <span (click)="onClickEdit()" class='shadow' style='left: -70%; font-weight:bold '>Edit</span>
+               <span (click)="onClickDelete()" class='shadow' style='left: -90%; color:red; font-weight:bold'>Delete</span>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</div>

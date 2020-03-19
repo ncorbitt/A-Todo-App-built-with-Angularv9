@@ -1,0 +1,45 @@
+
+button {
+   height:35px;
+   width: 70px;
+}
+
+#output-container {
+   margin-top: 10px;
+   width: 95%;
+   margin: 10px auto;;
+   color: white;
+   background-color: #1565C0;
+   border-radius: 7px !important;
+}
+
+
+#todoRow {
+      height: 100px ! important;
+      
+}
+
+#remove {
+   width:170px;
+}
+
+#remove:hover {
+   cursor: pointer;
+}
+td {
+   font-size: 2em;
+}
+
+td h3 {
+   margin-left: 25%;
+   text-align: center;
+   letter-spacing: 2px;
+}
+td span {
+   position:relative;
+   margin-left:50%;
+}
+
+.shadow {
+   text-shadow:1px 1px 15px black;
+}
