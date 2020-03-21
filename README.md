@@ -1,4 +1,4 @@
-# AngularApp
+# An Angular App
 Basic Todo App build with Angular v9
 
 ### Note
